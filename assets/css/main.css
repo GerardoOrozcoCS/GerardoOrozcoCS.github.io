@@ -26,7 +26,6 @@ body {
   top: 0;
   z-index: 10;
   background: #2b3a4d;
-  ;
   border-bottom: 1px solid #3d4d5f;
 }
 
@@ -117,6 +116,17 @@ h3 {
 .timeline {
   list-style: none;
   padding: 0;
+}
+
+.cards a {
+  color: #f71c8a;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cards a:hover {
+  color: #ff66b3;
+  text-decoration: underline;
 }
 
 .timeline li {
